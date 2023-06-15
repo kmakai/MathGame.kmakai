@@ -26,9 +26,9 @@ public class Game
             Operation.Subtract => Calculator.Subtract(NumberOne, NumberTwo),
             Operation.Multiply => Calculator.Multiply(NumberOne, NumberTwo),
             Operation.Divide => Calculator.Divide(NumberOne, NumberTwo),
-        }
+        };
     }
-    
+
 
 
 }
