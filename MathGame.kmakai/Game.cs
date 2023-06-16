@@ -13,6 +13,7 @@ public class Game
     public int NumberTwo { get; set; }
     public Operation Op { get; set; }
     public int Answer { get; set; }
+    public int UserAnswer { get; set; }
 
     public Game(Operation operation)
     {
